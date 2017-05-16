@@ -111,6 +111,10 @@ body {
   margin-bottom:50px;
 }
 
+.footer{
+    margin-top: 25px;
+}
+
 .footer p{
   text-align: center;
 }
@@ -122,9 +126,37 @@ body {
 .footer ul{
   text-align:center;
   list-style-type:none;
+  
 }
 
 .footer ul li{
   display:inline-block;
   margin-left: 7px;
+}
+
+.footer ul li:hover{
+  background: #DCDCDC !important;
+}
+
+.footer a{
+  color: #808080;
+  text-decoration: none;
+}
+
+.panel-body ul{
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 0;
+  padding-left: 0; 
+}
+
+.panel-body ul li{
+  display:inline;
+  float: left;
+  margin-right: 7px;
+  margin-bottom: 5px;
+}
+
+.panel{
+  height: 150px;
 }
