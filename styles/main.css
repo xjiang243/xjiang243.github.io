@@ -1,0 +1,130 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+.jumbotron{
+  background: #333 url('../images/bg.jpg') -400px -200px;
+  color:#fff;
+  text-align: center;
+  border-bottom: 5px #f4f4f4 solid;
+ }
+
+
+.navbar{
+  margin:0;
+  background-color: #333;
+}
+
+.navbar a{
+  color:#fff;
+  margin-bottom:3px;
+}
+
+.navbar a:hover{
+  background:none !important;
+  border-bottom:#fff 3px solid;
+  margin-bottom:0;
+}
+
+.box{
+  text-align: center;
+}
+
+.box .glyphicon{
+  font-size:45px;
+}
+
+.box div:hover{
+  background: #778899 !important;
+  border-bottom:#fff 3px solid;
+  margin-bottom:0;
+}
+
+.btn-primary{
+  background:#313461;
+  border-color:#313461;
+}
+
+.section-a{
+  background:#313461;
+  color:#fff;
+  text-align: center;
+  padding:50px;
+  margin-top: 15px;
+  margin-bottom:50px;
+}
+
+.footer p{
+  text-align: center;
+}
+
+.footer h4{
+  text-align: center; 
+}
+
+.footer ul{
+  text-align:center;
+  list-style-type:none;
+}
+
+.footer ul li{
+  display:inline-block;
+  margin-left: 7px;
+}
