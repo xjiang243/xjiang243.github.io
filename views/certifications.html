@@ -2,22 +2,33 @@
         <br>
         <br>
         <div class="row" ng-repeat = "certpair in certificationpair">
-            
-                <div class = "col-xs-5 col-xs-offset-1 col-md-5 col-md-offset-1" >
+                <div class = "
+                col-xs-11 col-xs-offset-1
+                col-sm-11 col-sm-offset-1
+                col-md-5 col-md-offset-1 
+                col-lg-5 col-lg-offset-1" >
                     <div class="panel panel-default" style="width:350px ">
+                        <a ng-href={{certpair[0].link}} target="_blank">
                           <div class="panel-body">
                             <img ng-src= {{certpair[0].img}} style="width:100%">
                           </div>
                           <div class="panel-footer">{{certpair[0].name}}</div>
+                        </a>
                     </div>
                  </div>
 
-                 <div class = "col-xs-5 col-xs-offset-1 col-md-5 col-md-offset-1">
+                 <div class = "
+                col-xs-11 col-xs-offset-1
+                col-sm-11 col-sm-offset-1
+                col-md-5 col-md-offset-1 
+                col-lg-5 col-lg-offset-1">
                     <div class="panel panel-default" style="width:350px">
+                        <a ng-href={{certpair[1].link}} target="_blank">
                           <div class="panel-body">
                             <img src={{certpair[1].img}} style="width:100%">
                           </div>
                           <div class="panel-footer">{{certpair[1].name}}</div>
+                        </a>
                     </div>
                  </div>
         </div>

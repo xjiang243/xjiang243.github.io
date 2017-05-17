@@ -157,10 +157,6 @@ body {
   margin-bottom: 5px;
 }
 
-.panel{
-  
-}
-
 h1 {
   font-size: 5.9vw;
 }
@@ -201,7 +197,7 @@ dt .thumbnail img{
   display: block;
 }
 
-.well a{
+a .well{
   color:#313461;
   text-decoration: none;
 }
