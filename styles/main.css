@@ -169,6 +169,14 @@ h3{
   font-size: 3.0vw;
 }
 
+h4{
+  font-size: 1.3vw;
+}
+
+h5{
+  font-size: 1.0vw;
+}
+
 p {
   font-size: 2vmin;
 }
@@ -182,13 +190,13 @@ dt{
   padding-top: 15px; 
 }
 
-.thumbnail{
+dt .thumbnail{
   width: 100px;
   height: 100px;
   border-style: none;
 }
 
-.thumbnail img{
+dt .thumbnail img{
   width: 100%;
   display: block;
 }

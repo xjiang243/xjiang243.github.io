@@ -39,7 +39,7 @@ angular.module('profile-App')
     	]},
     	{
     	companylogo: '../images/digital_china_logo.png',
-    	company: 'Shenzhou Digital Information Service Co., Ltd.',
+    	company: 'Digital China',
     	title: 'Software Developer',
     	location: 'Suzhou, China',
     	period: 'Jan.2013 - Jul.2014 ',

@@ -1,1 +1,24 @@
-certifications.html
+<div class="container">
+        <br>
+        <br>
+        <div class="row" ng-repeat = "certpair in certificationpair">
+            
+                <div class = "col-xs-5 col-xs-offset-1 col-md-5 col-md-offset-1" >
+                    <div class="panel panel-default" style="width:350px ">
+                          <div class="panel-body">
+                            <img ng-src= {{certpair[0].img}} style="width:100%">
+                          </div>
+                          <div class="panel-footer">{{certpair[0].name}}</div>
+                    </div>
+                 </div>
+
+                 <div class = "col-xs-5 col-xs-offset-1 col-md-5 col-md-offset-1">
+                    <div class="panel panel-default" style="width:350px">
+                          <div class="panel-body">
+                            <img src={{certpair[1].img}} style="width:100%">
+                          </div>
+                          <div class="panel-footer">{{certpair[1].name}}</div>
+                    </div>
+                 </div>
+        </div>
+</div>

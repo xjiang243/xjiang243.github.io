@@ -25,6 +25,16 @@ angular
         controller: 'ExperienceCtrl',
         controllerAs: 'experience'
       })
+      .when('/education',{
+        templateUrl: 'views/education.html',
+        controller: 'EducationCtrl',
+        controllerAs: 'education'
+      })
+      .when('/certifications',{
+        templateUrl: 'views/certifications.html',
+        controller: 'CertificationsCtrl',
+        controllerAs: 'certifications'
+      })
       .otherwise({
         redirectTo: '/'
       });
