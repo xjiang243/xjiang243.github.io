@@ -17,9 +17,9 @@ angular.module('profile-App')
     	location: 'Oak Brook, IL',
     	period: 'Aug.2016-present',
     	description:[
-			'Used HTML5, Javascript, CSS and JQuery to develop front-end website with Bootstrap.',
-			'Implement routes to add new features based on Node.js to communicate with client side.',
+			'Used Laravel framework to develop web artisan with Vagrant to manage visual machine.',
 			'Used relational Database MySQL with PHP to implement CRUD functions.', 
+            'Implement routes to add new features and communicate with client side.',
 			'Used Selenium and testNG framework to develop unit-testing scripts by programming in Java.',
 			'Used Git to implement the version control during the development procedure.'
     	]},
