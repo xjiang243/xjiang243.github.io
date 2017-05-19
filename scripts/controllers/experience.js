@@ -13,6 +13,7 @@ angular.module('profile-App')
     	{
     	companylogo: '../images/rdi_logo.png',
     	company: 'RDI Software',
+        companyUrl: 'https://www.rdisoftware.com/',
     	title: 'Software Engineer',
     	location: 'Oak Brook, IL',
     	period: 'Aug.2016-present',
@@ -26,6 +27,7 @@ angular.module('profile-App')
     	{
 		companylogo: '../images/moto_logo.png',
     	company: 'Motorola Mobility LLC',
+        companyUrl: 'https://www.motorola.com/us/home',
     	title: 'Software Engineer',
     	location: 'Chicago, IL',
     	period: 'Jun.2015-Dec.2015',
@@ -40,9 +42,10 @@ angular.module('profile-App')
     	{
     	companylogo: '../images/digital_china_logo.png',
     	company: 'Digital China',
+        companyUrl: 'http://www.digitalchina.com/',
     	title: 'Software Developer',
     	location: 'Suzhou, China',
-    	period: 'Jan.2013 - Jul.2014 ',
+    	period: 'Jan.2013-Jul.2014 ',
     	description:[
 				'Developed front-end web and android application for National Procuratorial Department.',
 				'Used Java and Android SDK to develop Android application.',
