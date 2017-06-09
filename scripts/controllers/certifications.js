@@ -12,12 +12,12 @@ angular.module('profile-App')
     var certificationpair = [
       [{
           name: " Angular2(or4)&NodeJS-The Practical MEAN Stack Guide",
-          img: "../images/udemy3.jpg",
+          img: "../images/udemy3.png",
           link: "https://www.udemy.com/certificate/UC-IDS9PXAF/"
        },
        {
           name: "The Complete Node.js Developer Course (2nd Edition)",
-          img: "../images/udemy2.jpg",
+          img: "../images/udemy2.png",
           link: "https://www.udemy.com/certificate/UC-X5INPDBW/"
        }
       ],
